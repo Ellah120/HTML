@@ -1,0 +1,1070 @@
+html, body {
+  margin: 0;
+  font-size: 100%;
+} 
+
+ #header {
+  height: 1.875rem;
+  display: flex;
+  background-color: white;
+}
+
+input[type=checkbox]{
+  display: none;
+ } 
+
+.hamburger {
+  display: none;
+  position: absolute;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+#header img {
+margin: 1.25rem 5rem;
+width: 6.313rem;
+height: 0.938rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(196, 180, 180);
+}
+#header nav {
+  margin-left: 9.375rem;
+}
+
+#header ul {
+  margin-left: 40px;
+  padding-left: 0px;
+}
+
+#header li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px;
+  padding: 0.313rem 1.25rem;
+  font-size: 0.75rem;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header span {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  margin-left: 10rem;
+}
+
+ button {
+  border-radius: 1.875rem;
+  padding: 0.625rem 1.563rem;
+  border-style: none;
+  color: white;
+  font-size: 0.75rem;
+  background: hsla(124, 63%, 60%, 1);
+background: linear-gradient(360deg, hsla(124, 63%, 60%, 1) 0%, rgb(134, 202, 242) 100%);
+background: -moz-linear-gradient(360deg, hsla(124, 63%, 60%, 1) 0%, rgb(134, 202, 242) 100%);
+background: -webkit-linear-gradient(360deg, hsla(124, 63%, 60%, 1) 0%, rgb(134, 202, 242) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5ADA63", endColorstr="#86caf2", GradientType=1 );
+}
+
+#subheader {
+ height: 25rem; 
+ background-color: rgb(250, 250, 250);
+ background: url('./images/bg-intro-desktop.svg') no-repeat;
+ background-size: 55% 140%;
+ background-position:  right bottom;
+ position: relative;
+}
+
+#subheader h1 {
+  padding-top: 5rem;
+  margin-left: 5rem;
+  width: 15.625rem;
+  font-weight: 400;
+  font-family: Open sans, sans-serif;
+  color: rgb(70, 70, 70);
+}
+
+#subheader p {
+  margin-left: 5rem;
+  color: grey;
+  font-family: Open sans, sans-serif;
+  width: 25rem;
+}
+
+#subheader span {
+  display: block;
+  padding-top: 1.25rem;
+}
+
+#subheader img {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  /* left: 46.4rem; */
+  left: 55%;
+  width: 45%;
+ height: 135%;
+}
+
+#third {
+  height: 28.125rem; 
+ background-color: rgb(246, 246, 246);
+ font-family: Open sans, sans-serif;
+ margin: 0px;
+ padding: 0px;
+ font-size: 0;
+}
+
+#third h2 {
+  margin-left: 5rem;
+  margin-top: 0px;
+  font-weight: 400;
+  padding-top: 3.125rem;
+  font-size: 1.5rem;
+  color: rgb(70, 70, 70);
+}
+
+#third #hello {
+  font-size: 1rem;
+  padding-left: 5rem;
+  width: 37.5rem;
+  color: grey;
+}
+
+#inlineP {
+  display: flex;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  flex-wrap: wrap;
+}
+
+#inlineP div {
+  padding-left: 5rem;
+  font-family: Open sans, sans-serif;
+  padding-top: 1.25rem;
+  width: 18.5%;
+}
+
+#inlineP div:nth-of-type(1) {
+  padding-left: 0px;
+}
+
+#inlineP h3 {
+  font-size: 1.25rem;
+  color: rgb(70, 70, 70);
+  font-weight: 400;
+}
+
+#inlineP p {
+  font-size: 0.9rem;
+  color: grey;
+  width: 13.75rem; 
+}
+
+#inlineD {
+  height: 31.25rem; 
+  font-family: Open sans, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+  background-color: rgb(250, 250, 250);
+}
+
+#inlineD h2 {
+  margin-left: 5rem;
+  font-weight: 400;
+  margin-top: 0px;
+  padding-top: 3.125rem;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+  color: rgb(70, 70, 70);
+}
+
+#inline {
+  display: flex;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  flex-wrap: wrap;
+}
+
+#inline div {
+  margin-left: 5rem;
+  font-family: Open sans, sans-serif;
+  width: 18.5%;
+  height: 21.875rem;
+  background-color: rgb(255, 255, 255);
+  padding-top: 0px;
+  margin-top: 1.25rem;
+}
+
+#inline div:nth-of-type(1) {
+  margin-left: 0px;
+}
+
+#inline img {
+  width: 100%;
+  height: 50%;
+}
+
+#inlineD .small {
+  margin-left: 0.625rem;
+  margin-top: 1.25rem;
+  color: grey;
+  font-size: 0.625rem;
+}
+
+#inlineD h4 {
+  font-size: 1rem;
+  color: rgb(70, 70, 70);
+  margin-left: 0.625rem;
+  margin-top: 0.625rem;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.big {
+  margin-left: 0.625rem;
+  color: grey;
+  font-size: 0.68rem;
+  margin-top: 0.313rem;
+  width: 11.25rem;
+}
+
+#final {
+  height: 8.125rem ;
+  background-color: rgb(22, 22, 47);
+  padding: 0px;
+  margin: 0px;
+  display: flex
+}
+
+#logo {
+  margin-left: 5rem;
+  margin-top: 1.875rem;
+  width: 8%;
+  height: 15%;
+}
+
+#social {
+  margin-top: 3.125rem;
+  margin-left: 0px;
+  transform: translateX(-80%);
+  width: 10%;
+}
+
+#final .images {
+  height: 0.9rem;
+  width: 0.9rem;
+  margin-top: 1.25rem;
+  margin-right: 7%;
+}
+
+#final #yt {
+  border-radius: 50%;
+}
+
+#final #pi {
+  border-radius: 50%;
+}
+
+#final #ig {
+  border-radius: 15%;
+}
+
+#final #twitter {
+  border-radius: 50%;
+}
+
+#sublast {
+  margin-top: 1.875rem;
+  width: 50%;
+}
+
+#sublast nav {
+  height: 100%;
+}
+
+#listone {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#listone li {
+  list-style: none;
+  font-size: 0.7rem;
+  font-family: Open sans, sans-serif;
+  padding-left: 1.188rem;
+  padding-bottom: 0.313rem;
+}
+
+#list2 {
+  transform: translate(12.5rem, -4.688rem);
+  margin-bottom: 0px;
+}
+
+#list2 li {
+  list-style: none;
+  font-size: 0.7rem;
+  font-family: Open sans, sans-serif;
+  padding-bottom: 0.313rem;
+}
+
+#final button {
+  height: 35px;
+  width: 10%;
+  transform: translate(1.875rem, 2rem);
+}
+
+footer {
+  transform: translate(-8.438rem, 4.375rem);
+  font-family: Open sans, sans-serif;
+  font-size: 0.7rem;
+  color: grey;
+  height: 30%;
+}
+
+@media (max-width: 474px) and (min-width: 375px) {
+
+  #header {
+    width: 100%;
+    height: 50px;
+  }
+
+  #header nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: -130px;
+  } 
+
+  #header ul {
+    margin-top: 0px;
+  }
+
+  #header li {
+    display: block;
+    padding: 0.2rem 1rem;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(128, 235, 135);
+  }
+
+  input[type=checkbox]:checked ~ #navbar{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+    margin-top: 0.5rem;
+   
+   }
+
+   #header img {
+    margin-left: 10rem;
+   }
+
+   #header span {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: -14px;
+  }
+  #header button {
+    height: 35px;
+    width: 80px;
+    padding: 0.625rem 0.4rem;
+    font-size: 0.6rem;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+  }
+
+  #subheader img {
+    display: none;
+  }
+
+  #subheader h1 {
+    margin-left: 2.5rem;
+    padding-top: 110px;
+    margin-left: 30px;
+    width: 250px;
+    color: black;
+  }
+
+  #subheader p {
+    font-size: 16px;
+    width: 18rem;
+    margin-left: 2.5rem;
+    color: rgb(130, 124, 124);
+  }
+ 
+  #third {
+    height: 1400px; 
+  }
+
+  #third h2 {
+    margin-left: 30px;
+    font-size: 24px;
+    color: black;
+  }
+
+  #third #hello {
+    font-size: 1rem;
+    width: 20rem;
+    padding-left: 2.5rem;
+  }
+
+  #inlineP h3 {
+    font-size: 1.5rem;
+  }
+
+  #inlineP p {
+    font-size: 1rem;
+    width: 15rem; 
+  }
+
+  #inlineP div {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  #inlineP div:nth-of-type(2), #inlineP div:nth-of-type(3), #inlineP div:nth-of-type(4) {
+   margin-left: -80px;
+  }
+
+  #inlineD {
+    height: 1850px; 
+  }
+
+  #inlineD h2 {
+    margin-left: 30px;
+    text-align: center;
+}
+
+#inline div {
+  width: 100%;
+  height: 25rem;
+margin-top: 2rem;
+}
+
+#inline div:nth-of-type(2), #inline div:nth-of-type(3), #inline div:nth-of-type(4) {
+  margin-left: 1px;
+ }
+
+ .big {
+  margin-left: 0.625rem;
+  font-size: 0.8rem;
+  width: 12rem;
+}
+
+#final {
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+
+#logo {
+  margin-top: 2rem;
+  margin-left: 30px;
+  width: 90px;
+}
+
+#final .images {
+  height: 0.9rem;
+  width: 0.9rem;
+  margin-top: 10px;
+  margin-right: 6px;
+}
+#social {
+  display: flex;
+  transform: translate(-90px, 30px);
+}
+
+#listone {
+  transform: translate(-40px, 5px);
+}
+
+#listone li {
+  padding-bottom: 10px;
+}
+
+#list2 {
+  transform: translate(4rem, -5.5rem);
+}
+
+#list2 li {
+  padding-bottom: 10px;
+}
+
+#final button {
+  width: 20%;
+  position: absolute;
+  top: 72px;
+  right: 33px;
+  padding: 0.625rem 0.4rem;
+  font-size: 0.6rem;
+}
+
+footer {
+  transform: translate(-8.2rem, 7.7rem);
+  font-size: 0.5rem;
+}
+}
+
+@media (max-width: 642px) and (min-width: 475px) {
+
+  #header {
+    width: 100%;
+    height: 50px;
+  }
+
+  #header nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: -130px;
+  } 
+
+  #header ul {
+    margin-top: 0px;
+  }
+
+  #header li {
+    display: block;
+    padding: 0.2rem 1rem;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(134, 202, 242);
+    background-color: rgb(128, 235, 135);
+  }
+
+  input[type=checkbox]:checked ~ #navbar{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+    margin-top: 0.5rem;
+   
+   }
+
+   #header img {
+    margin-left: 10rem;
+   }
+
+   #header span {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: -14px;
+  }
+  #header button {
+    height: 35px;
+    width: 80px;
+    padding: 0.625rem 0.4rem;
+    font-size: 0.6rem;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+  }
+
+  #subheader img {
+    display: none;
+  }
+
+  #subheader h1 {
+    margin-left: 2.5rem;
+    padding-top: 110px;
+    margin-left: 30px;
+    width: 250px;
+    color: black;
+  }
+
+  #subheader p {
+    font-size: 16px;
+    width: 18rem;
+    margin-left: 2.5rem;
+    color: rgb(130, 124, 124);
+  }
+ 
+  #third {
+    height: 1400px; 
+  }
+
+  #third h2 {
+    margin-left: 30px;
+    font-size: 24px;
+    color: black;
+  }
+
+  #third #hello {
+    font-size: 1.1rem;
+    width: 25rem;
+    padding-left: 2.5rem;
+  }
+
+  #inlineP h3 {
+    font-size: 1.5rem;
+  }
+
+  #inlineP p {
+    font-size: 1.1rem;
+    width: 23rem; 
+  }
+
+  #inlineP div {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  #inlineP div:nth-of-type(2), #inlineP div:nth-of-type(3), #inlineP div:nth-of-type(4) {
+   margin-left: -80px;
+  }
+
+  #inlineD {
+    height: 1850px; 
+  }
+
+  #inlineD h2 {
+    margin-left: 30px;
+    text-align: center;
+}
+
+#inline div {
+  width: 100%;
+  height: 25rem;
+margin-top: 2rem;
+}
+
+#inline div:nth-of-type(2), #inline div:nth-of-type(3), #inline div:nth-of-type(4) {
+  margin-left: 1px;
+ }
+
+ #inlineD h4 {
+  font-size: 1.4rem;
+  width: 15rem;
+}
+
+ .big {
+  margin-left: 0.625rem;
+  font-size: 0.8rem;
+  width: 19rem;
+}
+
+#final {
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+
+#logo {
+  margin-top: 2rem;
+  margin-left: 30px;
+  width: 90px;
+}
+
+#final .images {
+  height: 0.9rem;
+  width: 0.9rem;
+  margin-top: 10px;
+  margin-right: 6px;
+}
+
+#social {
+  display: flex;
+  transform: translate(-90px, 30px);
+}
+
+#listone {
+  transform: translate(-40px, 5px);
+}
+
+#listone li {
+  padding-bottom: 10px;
+}
+
+#list2 {
+  transform: translate(5rem, -5.5rem);
+}
+
+#list2 li {
+  padding-bottom: 10px;
+}
+
+#final button {
+  width: 20%;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  padding: 0.625rem 0.4rem;
+  font-size: 0.6rem;
+}
+
+footer {
+  transform: translate(-0.2rem, 7rem);
+  font-size: 0.5rem;
+}
+}
+
+@media (max-width: 767px) and (min-width: 643px) {
+  #header img {
+    margin-right: 0.3rem;
+    margin-left: 2.5rem;
+    }
+    
+    #header ul {
+      margin-left: 15px;
+      padding-left: 0px;
+    }
+    
+    #header nav {
+      margin-left: 0.5rem;
+    
+    }
+
+    #header li {
+      padding: 0.1rem 0.5rem;
+      padding-top: 0.2rem;
+      padding-bottom: 0.2rem;
+      padding-left: 0.3rem;
+      padding-right: 0.3rem;
+      font-size: 0.8rem;
+    }
+    
+    #header span {
+      margin-left: 1.5rem;
+    }
+
+    #header button {
+      width: 17%;
+      height: 35px;
+      font-size: 0.6rem;
+      position: absolute;
+      top: 10px;
+      right: 30px;
+      padding: 0.625rem 0.4rem;
+    }
+
+    #subheader img {
+      display: none;
+    }
+
+    #subheader h1 {
+      margin-left: 2.5rem;
+    }
+
+    #subheader p {
+      font-size: 0.8rem;
+      width: 18rem;
+      margin-left: 2.5rem;
+    }
+
+    #third {
+      height: 56.25rem; 
+    }
+
+    #third h2 {
+      margin-left: 2.5rem;
+      font-size: 1.5rem;
+    }
+
+    #third #hello {
+      font-size: 1rem;
+      width: 22rem;
+      padding-left: 2.5rem;
+    }
+
+    #inlineP h3 {
+      font-size: 1.5rem;
+    }
+
+    #inlineP p {
+      font-size: 1rem;
+      width: 15rem; 
+    }
+
+    #inlineP div {    
+      width: 40%;
+      margin-top: 1rem;
+    }
+
+    #inlineP, #inline {
+      margin-left: 2.5rem;
+    }
+
+    #inlineP div:nth-of-type(3){
+    padding-left: 0px;
+    }
+
+    #inlineD {
+      height: 62.5rem;   
+    }
+ 
+    #inline div {
+      width: 40%;
+      height: 25rem;
+    margin-top: 2rem;
+    }
+
+    #inline div:nth-of-type(3) {
+      margin-left: 0px;
+    }
+
+    #inlineD h2 {
+      font-size: 2rem;
+      margin-left: 2.5rem;
+    }
+
+    #inlineD .small {
+      font-size: 0.7rem;
+      margin-left: 1rem;
+    }
+    
+    #inlineD h4 {
+      font-size: 1.1rem;
+      margin-left: 1rem;
+      width: 12rem;
+    }
+    
+    .big {
+      color: grey;
+      font-size: 0.7rem;
+      margin-top: 0.313rem;
+      width: 12rem;
+      margin-left: 1rem;
+    }
+
+    #logo {
+      margin-left: 3rem;
+      margin-top: 1.875rem;
+      width: 10%;
+      height: 15%;
+      border: 2px solid white;
+    }
+
+    #social {
+      display: flex;
+      transform: translate(-72px, 10px);
+    }
+
+    #list2 {
+      transform: translate(10.5rem, -4.688rem);
+    }
+
+    footer {
+      transform: translate(-2.8rem, 4.375rem);
+      font-size: 0.6rem;
+    }
+
+    #final button {
+      height: 35px;
+      width: 15%;
+      transform: translate(3rem, 2rem);
+      font-size: 0.6rem;
+      padding: 0.625rem 0.4rem;
+    }
+}
+
+
+@media (max-width: 999px) and (min-width: 768px) {
+ 
+  #header img {
+    margin-right: 1.5rem;
+    }
+    
+    #header nav {
+      margin-left: 1.5rem;
+    }
+
+    #header li {
+      padding: 0.313rem 0.9rem;
+      font-size: 0.7rem;
+    }
+    
+    #header span {
+      margin-left: 2.2rem;
+    }
+
+    #subheader p {
+      font-size: 0.8rem;
+      width: 18rem;
+    }
+
+    #third {
+      height: 56.25rem; 
+    }
+
+    #third h2 {
+      font-size: 1.5rem;
+    }
+
+    #third #hello {
+      font-size: 1rem;
+      width: 22rem;
+    }
+
+    #inlineP h3 {
+      font-size: 1.5rem;
+    }
+
+    #inlineP p {
+      font-size: 1rem;
+      width: 18rem; 
+    }
+
+    #inlineP div {    
+      width: 40%;
+      margin-top: 1rem;
+    }
+
+    #inlineP div:nth-of-type(3) {
+      padding-left: 0px;
+    }
+
+    #inlineD {
+      height: 62.5rem; 
+    }
+ 
+    #inline div {
+      width: 40%;
+      height: 25rem;
+    margin-top: 2rem;
+    }
+
+    #inline div:nth-of-type(3) {
+      margin-left: 0px;
+    }
+
+    #inlineD h2 {
+      font-size: 2rem;
+    }
+
+    #inlineD .small {
+      font-size: 0.7rem;
+      margin-left: 1rem;
+    }
+    
+    #inlineD h4 {
+      font-size: 1.2rem;
+      margin-left: 1rem;
+      width: 15rem;
+    }
+
+    .big {
+      margin-left: 0.625rem;
+      color: grey;
+      font-size: 0.7rem;
+      margin-top: 0.313rem;
+      width: 13rem;
+      margin-left: 1rem;
+    }
+
+    #social {
+      display: flex;
+      transform: translate(-67px, 10px);
+    }
+
+    footer {
+      transform: translate(-4.3rem, 4.375rem);
+      font-size: 0.6rem;
+    }
+
+    #final button {
+      height: 35px;
+      width: 15%;
+      transform: translate(3rem, 2rem);
+      font-size: 0.7rem;
+    }
+    }
+
+    @media (max-width: 1200px) and (min-width: 1000px) {
+    #header img {
+    margin-right: 3rem;
+    }
+    
+    #header nav {
+      margin-left: 4rem;
+    }
+    
+    #header span {
+      margin-left: 8rem;
+    }
+
+    #third {
+      height: 56.25rem; 
+    }
+
+    #third h2 {
+      font-size: 2rem;
+    }
+
+    #third #hello {
+      font-size: 1.4rem;
+    }
+
+    #inlineP h3 {
+      font-size: 1.5rem;
+    }
+
+    #inlineP p {
+      font-size: 1.2rem;
+      width: 20rem; 
+    }
+
+    #inlineP div {    
+      width: 40%;
+    }
+
+    #inlineP div:nth-of-type(3) {
+      padding-left: 0px;
+    }
+
+    #inlineD {
+      height: 62.5rem; 
+    }
+ 
+    #inline div {
+      width: 40%;
+      height: 25rem;
+    margin-top: 2rem;
+    }
+
+    #inline div:nth-of-type(3) {
+      margin-left: 0px;
+    }
+
+    #inlineD h2 {
+      font-size: 2rem;
+    }
+
+    #inlineD .small {
+      font-size: 0.7rem;
+      margin-left: 1rem;
+    }
+    
+    #inlineD h4 {
+      font-size: 1.2rem;
+      margin-left: 1rem;
+      width: 18rem;
+    }
+
+    .big {
+      margin-left: 0.625rem;
+      color: grey;
+      font-size: 1rem;
+      margin-top: 0.313rem;
+      width: 20rem;
+      margin-left: 1rem;
+    }
+    #social {
+      display: flex;
+      transform: translateX(-85px);
+    }
+    footer {
+      transform: translate(-6.438rem, 4.375rem);
+      font-size: 0.8rem;
+    }
+
+    #final button {
+      height: 35px;
+      width: 15%;
+      transform: translate(3rem, 2rem);
+    }   
+    }
